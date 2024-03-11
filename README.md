@@ -42,7 +42,7 @@ Posteriormente, se lleva a cabo el Proceso de Análisis Exploratorio de Datos (E
 
 En el transcurso de los años, los accidentes con víctimas fatales muestran: para el período 2016-2018 una tendencia alta y estacionaria, que luego se convierte en bajista (teniendo en cuenta el comienzo de la Pandemia por COVID19 durante 2020); puede verse un pico de siniestros durante Diciembre de 2021 y se retoma la tendencia bajista. 
 
-![a]()
+![a](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/Imagenes/Captura%20de%20pantalla%20(75).png)
 
 **Análisis Demográfico y Geográfico**
 

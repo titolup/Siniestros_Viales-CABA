@@ -22,35 +22,41 @@ Por todo ello, el estudio del problema para la prevención y disminución de Sin
 
 ## **Actividades Desarrolladas**
 
-[Datasets]()
+[Datasets](https://github.com/titolup/Siniestros_Viales-CABA/tree/main/Datasets)
 
 Para este proyecto, se trabajó con la Base de Datos de Víctimas Fatales en Siniestros Viales, la cual está en formato Excel y consta de dos pestañas:
 
-HECHOS: En esta pestaña se registra cada incidente con un ID único, junto con las variables temporales, espaciales y de los participantes asociadas a cada uno.
+**HECHOS:** En esta pestaña se registra cada incidente con un ID único, junto con las variables temporales, espaciales y de los participantes asociadas a cada uno.
 
-VICTIMAS: Aquí se encuentra una fila por cada víctima de los incidentes, con información sobre su edad, sexo y modo de desplazamiento. Se establece una relación con la pestaña HECHOS a través del ID del incidente.
+**VICTIMAS:** Aquí se encuentra una fila por cada víctima de los incidentes, con información sobre su edad, sexo y modo de desplazamiento. Se establece una relación con la pestaña HECHOS a través del ID del incidente.
 
 En este documento se proporcionan todas las definiciones pertinentes para el análisis de los datos y el desarrollo del proyecto. Además, los datos utilizados están disponibles en el siguiente enlace.
 
-El proceso de ETL (Extracción, Transformación y Carga) implica la extracción y limpieza de datos de los conjuntos de datos HECHOS y VICTIMAS utilizando Pandas y Jupyter Notebook. Durante este proceso, se eliminan valores nulos y duplicados, se aplican transformaciones necesarias como cambios en los tipos de datos, eliminación de columnas no relevantes. Link..
+El proceso de ETL (Extracción, Transformación y Carga) implica la extracción y limpieza de datos de los conjuntos de datos HECHOS y VICTIMAS utilizando Pandas y Jupyter Notebook. Durante este proceso, se eliminan valores nulos y duplicados, se aplican transformaciones necesarias como cambios en los tipos de datos, eliminación de columnas no relevantes. [Link ETL]()
 
-Posteriormente, se lleva a cabo el Proceso de Análisis Exploratorio de Datos (EDA), una vez que los datos están limpios. En esta etapa, se exploran las relaciones entre las variables numéricas y categóricas de los conjuntos de datos. Se identifican posibles outliers o anomalías (que no necesariamente son errores), y se busca cualquier patrón o conocimiento que pueda ser útil en un análisis posterior. Link..
+Posteriormente, se lleva a cabo el Proceso de Análisis Exploratorio de Datos (EDA), una vez que los datos están limpios. En esta etapa, se exploran las relaciones entre las variables numéricas y categóricas de los conjuntos de datos. Se identifican posibles outliers o anomalías (que no necesariamente son errores), y se busca cualquier patrón o conocimiento que pueda ser útil en un análisis posterior. [Link EDA_Homicidios]() [Link EDA_Victimas]()
 
-Análisis de Datos:
+## **Análisis de Datos**
 
-Análisis Temporal:
+**Análisis Temporal**
 
-En el transcurso de los años, los accidentes con víctimas fatales muestran: para el período 2016-2018 una tendencia alta y estacionaria, que luego se convierte en bajista (teniendo en cuenta el comienzo de la Pandemia por COVID19 durante 2020); puede verse un pico de siniestros durante Diciembre de 2021 y se retoma la tendencia bajista. link foto...
+En el transcurso de los años, los accidentes con víctimas fatales muestran: para el período 2016-2018 una tendencia alta y estacionaria, que luego se convierte en bajista (teniendo en cuenta el comienzo de la Pandemia por COVID19 durante 2020); puede verse un pico de siniestros durante Diciembre de 2021 y se retoma la tendencia bajista. 
 
-Análisis Demográfico y Geográfico:
+![a]()
 
-La distribución de la edad de las víctimas muestra que los hombres afectados generalmente se encuentran en el rango de edad de 20 a 40 años. Por otro lado, las mujeres afectadas tienden a estar en los rangos de 40, 60 y 80 años.Link fot....
+**Análisis Demográfico y Geográfico**
 
-Utilizando la herramienta GeoPandas y extrayendo los datos de los detalles de las 15 comunas de CABA; resulta el análisis de las coordenadas geográficas y comunas de CABA, que demostro que las comunas con más siniestos son las 1, 4 , 9, 8 y 7. link foto...
+La distribución de la edad de las víctimas muestra que los hombres afectados generalmente se encuentran en el rango de edad de 20 a 40 años. Por otro lado, las mujeres afectadas tienden a estar en los rangos de 40, 60 y 80 años.
 
-Los siniestros se producen en 62% de los casos en el tipo de calle Avenida y en el 82% de los casos se corresponden con un Cruce entre calles. Lo que resulta un patrón que se repite a lo largo de los años. link fot...
+![e]()
 
-Indicadores de Rendimiento Clave KPI
+Utilizando la herramienta GeoPandas y extrayendo los datos de los detalles de las 15 comunas de CABA; resulta el análisis de las coordenadas geográficas y comunas de CABA, que demostro que las comunas con más siniestos son las 1, 4 , 9, 8 
+
+![c]()
+
+Los siniestros se producen en 62% de los casos en el tipo de calle Avenida y en el 82% de los casos se corresponden con un Cruce entre calles. Lo que resulta un patrón que se repite a lo largo de los años. 
+
+## **Indicadores de Rendimiento Clave KPI**
 
 Una vez completado el Análisis Exploratorio de Datos, se utiliza el conjunto de datos resultante,junto con los datos extraídos de la página oficial de CABA que contienen información sobre las comunas. Estos datos se utilizan para desarrollar un tablero de Power BI con el objetivo de obtener los KPI (Indicadores Clave de Rendimiento) y un panel de presentación del informe con visualizaciones de datos.LINK foto dashboard kpi
 
@@ -60,8 +66,12 @@ Número de Homicidios de Siniestros = Tomando la variable Num víctimas del data
 
 Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior Se define la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100
 
-Cantidad de Accidentes Mortales en Moto = Tomando la variable Victima que se iguale a el campo [MOTO] del dataset
+Cantidad de Accidentes Mortales en Moto = Tomando la variable Victima que se iguale a el campo MOTO del dataset
 
 Reducir en un 15% la cantidad de accidentes con víctimas fatales de peatones en el último semestre, en CABA, respecto al semestre anterior. Se define la cantidad de accidentes fatales de peatones en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que circulaban a pie en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas peaton es: (Número de accidentes mortales con víctimas peaton en el semestre anterior - Número de accidentes mortales con víctimas peaton en el semestre actual) / (Número de accidentes mortales con víctimas peaton en el semestre anterior) * 100
 
-Cantidad de Accidentes Mortales en Moto = Tomando la variable Victima que se iguale a el campo [PEATON] del dataset. Link foto KPI
+Cantidad de Accidentes Mortales en Moto = Tomando la variable Victima que se iguale a el campo PEATON del dataset. Link foto KPI
+
+
+## **Autor**
+Este proyecto fue realizado por [Natalia Paez Marin]()

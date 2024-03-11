@@ -32,7 +32,7 @@ Para este proyecto, se trabajó con la Base de Datos de Víctimas Fatales en Sin
 
 En este documento se proporcionan todas las definiciones pertinentes para el análisis de los datos y el desarrollo del proyecto. Además, los datos utilizados están disponibles en el siguiente enlace.
 
-El proceso de ETL (Extracción, Transformación y Carga) implica la extracción y limpieza de datos de los conjuntos de datos HECHOS y VICTIMAS utilizando Pandas y Jupyter Notebook. Durante este proceso, se eliminan valores nulos y duplicados, se aplican transformaciones necesarias como cambios en los tipos de datos, eliminación de columnas no relevantes. [Link ETL]()
+El proceso de ETL (Extracción, Transformación y Carga) implica la extracción y limpieza de datos de los conjuntos de datos HECHOS y VICTIMAS utilizando Pandas y Jupyter Notebook. Durante este proceso, se eliminan valores nulos y duplicados, se aplican transformaciones necesarias como cambios en los tipos de datos, eliminación de columnas no relevantes. [Link ETL](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/1_ETL.ipynb)
 
 Posteriormente, se lleva a cabo el Proceso de Análisis Exploratorio de Datos (EDA), una vez que los datos están limpios. En esta etapa, se exploran las relaciones entre las variables numéricas y categóricas de los conjuntos de datos. Se identifican posibles outliers o anomalías (que no necesariamente son errores), y se busca cualquier patrón o conocimiento que pueda ser útil en un análisis posterior. [Link EDA_Homicidios]() [Link EDA_Victimas]()
 

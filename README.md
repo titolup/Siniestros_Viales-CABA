@@ -52,7 +52,7 @@ La distribución de la edad de las víctimas muestra que los hombres afectados g
 
 Utilizando la herramienta GeoPandas y extrayendo los datos de los detalles de las 15 comunas de CABA; resulta el análisis de las coordenadas geográficas y comunas de CABA, que demostro que las comunas con más siniestos son las 1, 4 , 9, 8 
 
-![c]()
+![c](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/Imagenes/Captura%20de%20pantalla%20(76).png)
 
 Los siniestros se producen en 62% de los casos en el tipo de calle Avenida y en el 82% de los casos se corresponden con un Cruce entre calles. Lo que resulta un patrón que se repite a lo largo de los años. 
 

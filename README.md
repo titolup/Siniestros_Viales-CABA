@@ -48,7 +48,7 @@ En el transcurso de los años, los accidentes con víctimas fatales muestran: pa
 
 La distribución de la edad de las víctimas muestra que los hombres afectados generalmente se encuentran en el rango de edad de 20 a 40 años. Por otro lado, las mujeres afectadas tienden a estar en los rangos de 40, 60 y 80 años.
 
-![e]()
+![e](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/Imagenes/Captura%20de%20pantalla%20(72).png)
 
 Utilizando la herramienta GeoPandas y extrayendo los datos de los detalles de las 15 comunas de CABA; resulta el análisis de las coordenadas geográficas y comunas de CABA, que demostro que las comunas con más siniestos son las 1, 4 , 9, 8 
 

@@ -1,6 +1,6 @@
 # **Siniestros_Viales-CABA**
 
-![p]()
+![p](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/Imagenes/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(2).png)
 
 Este proyecto, llevado a cabo bajo la simulación de un rol de Analista de Datos en una consultora, tiene como objetivo principal realizar un análisis de datos solicitado por el Observatorio de Movilidad y Seguridad Vial (OMSV), que forma parte de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA).
 
@@ -10,7 +10,7 @@ Las tasas de mortalidad relacionadas con los siniestros viales son un indicador 
 
 Para lograr este objetivo, se utilizan datos iniciales obtenidos de un conjunto de datos que contiene información sobre los homicidios por siniestros viales en la Ciudad de Buenos Aires durante los años 2016-2021. Este conjunto de datos está disponible al público en la página oficial de CABA y puede accederse a través de los Datos Oficiales.
 
-Contexto
+## **Contexto**
 
 Los siniestros viales, también conocidos como accidentes de tráfico o accidentes de tránsito, son eventos que involucran vehículos en las vías públicas y que pueden tener diversas causas, como colisiones entre automóviles, motocicletas, bicicletas o peatones, atropellos, choques con objetos fijos o caídas de vehículos. Estos incidentes pueden tener consecuencias que van desde daños materiales hasta lesiones graves o fatales para los involucrados.
 
@@ -20,9 +20,9 @@ Buenos Aires es la capital y ciudad más poblada de la República Argentina. La 
 
 Por todo ello, el estudio del problema para la prevención y disminución de Siniestros viales es escencialmente importante para las autoridades.
 
-Actividades Desarrolladas:
+## **Actividades Desarrolladas**
 
-DATASETS
+[Datasets]()
 
 Para este proyecto, se trabajó con la Base de Datos de Víctimas Fatales en Siniestros Viales, la cual está en formato Excel y consta de dos pestañas:
 

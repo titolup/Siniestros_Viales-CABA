@@ -34,7 +34,7 @@ En este documento se proporcionan todas las definiciones pertinentes para el an�
 
 El proceso de ETL (Extracción, Transformación y Carga) implica la extracción y limpieza de datos de los conjuntos de datos HECHOS y VICTIMAS utilizando Pandas y Jupyter Notebook. Durante este proceso, se eliminan valores nulos y duplicados, se aplican transformaciones necesarias como cambios en los tipos de datos, eliminación de columnas no relevantes. [Link ETL](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/1_ETL.ipynb)
 
-Posteriormente, se lleva a cabo el Proceso de Análisis Exploratorio de Datos (EDA), una vez que los datos están limpios. En esta etapa, se exploran las relaciones entre las variables numéricas y categóricas de los conjuntos de datos. Se identifican posibles outliers o anomalías (que no necesariamente son errores), y se busca cualquier patrón o conocimiento que pueda ser útil en un análisis posterior. [Link EDA_Homicidios](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/2_EDA_homicidios.ipynb) [Link EDA_Victimas]()
+Posteriormente, se lleva a cabo el Proceso de Análisis Exploratorio de Datos (EDA), una vez que los datos están limpios. En esta etapa, se exploran las relaciones entre las variables numéricas y categóricas de los conjuntos de datos. Se identifican posibles outliers o anomalías (que no necesariamente son errores), y se busca cualquier patrón o conocimiento que pueda ser útil en un análisis posterior. [Link EDA_Homicidios](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/2_EDA_homicidios.ipynb) [Link EDA_Victimas](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/3_EDA_victimas.ipynb)
 
 ## **Análisis de Datos**
 

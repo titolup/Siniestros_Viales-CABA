@@ -2,7 +2,7 @@
 
 ![p](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/Imagenes/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(2).png)
 
-Este proyecto, llevado a cabo bajo la simulación de un rol de Analista de Datos en una consultora, tiene como objetivo principal realizar un análisis de datos solicitado por el Observatorio de Movilidad y Seguridad Vial (OMSV), que forma parte de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA).
+Este proyecto, llevado a cabo bajo la simulación de un rol de Analista de Datos, tiene como objetivo principal realizar un análisis de datos solicitado por el Observatorio de Movilidad y Seguridad Vial (OMSV), que forma parte de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA).
 
 El propósito fundamental del proyecto es proporcionar información que permita tomar decisiones fundamentadas a las partes pertinentes, con el fin de prevenir accidentes, aumentar la seguridad vial y reducir los siniestros viales con víctimas fatales en la Ciudad de Buenos Aires.
 

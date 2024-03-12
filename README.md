@@ -60,7 +60,7 @@ Los siniestros se producen en 62% de los casos en el tipo de calle Avenida y en 
 
 ## **Indicadores de Rendimiento Clave KPI**
 
-Una vez completado el Análisis Exploratorio de Datos, se utiliza el conjunto de datos resultante,junto con los datos extraídos de la página oficial de CABA que contienen información sobre las comunas. Estos datos se utilizan para desarrollar un tablero de Power BI con el objetivo de obtener los KPI (Indicadores Clave de Rendimiento) y un panel de presentación del informe con visualizaciones de datos.LINK foto dashboard kpi
+Una vez completado el Análisis Exploratorio de Datos, se utiliza el conjunto de datos resultante,junto con los datos extraídos de la página oficial de CABA que contienen información sobre las comunas. Estos datos se utilizan para desarrollar un tablero de Power BI con el objetivo de obtener los KPI (Indicadores Clave de Rendimiento) y un panel de presentación del informe con visualizaciones de datos.
 
 Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior Se define la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000
 
@@ -72,7 +72,7 @@ Cantidad de Accidentes Mortales en Moto = Tomando la variable Victima que se igu
 
 Reducir en un 15% la cantidad de accidentes con víctimas fatales de peatones en el último semestre, en CABA, respecto al semestre anterior. Se define la cantidad de accidentes fatales de peatones en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que circulaban a pie en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas peaton es: (Número de accidentes mortales con víctimas peaton en el semestre anterior - Número de accidentes mortales con víctimas peaton en el semestre actual) / (Número de accidentes mortales con víctimas peaton en el semestre anterior) * 100
 
-Cantidad de Accidentes Mortales en Moto = Tomando la variable Victima que se iguale a el campo PEATON del dataset. Link foto KPI
+Cantidad de Accidentes Mortales en Moto = Tomando la variable Victima que se iguale a el campo PEATON del dataset. 
 
 
 ## **Autor**

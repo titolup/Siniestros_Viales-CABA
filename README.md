@@ -58,7 +58,7 @@ Los siniestros se producen en 62% de los casos en el tipo de calle Avenida y en 
 
 ![c](https://github.com/titolup/Siniestros_Viales-CABA/blob/main/Imagenes/Captura%20de%20pantalla%20(76).png)
 
-## **Indicadores de Rendimiento Clave KPI**
+## **Indicadores de Rendimiento Clave KPI** ![k]()
 
 Una vez completado el Análisis Exploratorio de Datos, se utiliza el conjunto de datos resultante,junto con los datos extraídos de la página oficial de CABA que contienen información sobre las comunas. Estos datos se utilizan para desarrollar un tablero de Power BI con el objetivo de obtener los KPI (Indicadores Clave de Rendimiento) y un panel de presentación del informe con visualizaciones de datos.
 
